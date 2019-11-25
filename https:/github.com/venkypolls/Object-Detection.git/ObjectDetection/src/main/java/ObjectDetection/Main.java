@@ -12,7 +12,7 @@ public class Main {
 	public static void main(String[] args) throws FileNotFoundException {
 		// TODO Auto-generated method stub
 		System.out.println("true");
-		IamAuthenticator authenticator = new IamAuthenticator("GMEIU-KCqpTuqU4on2pRU5eLiWCLRHsp-emjHHA9wlbS");
+		IamAuthenticator authenticator = new IamAuthenticator("key");
 	    VisualRecognition visualRecognition = new VisualRecognition("2018-03-19", authenticator);
 	    visualRecognition.setServiceUrl("https://gateway.watsonplatform.net/visual-recognition/api");
 
